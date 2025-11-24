@@ -3,6 +3,6 @@
 To reproduce the bug:
 
 1. Run `bun i`
-2. Run `bun --elide-lines=0 --filter './packages/my-next-app' dev`
+2. Run `bun dev`
 
-If you add the `@types/node` package to `/packages/my-next-app/package.json` and reinstall -- then it works.
+Note that for some reason `@types/node` is in `bun.lock` here, even though I never ask for it to be installed. This is not the same when using a monorepo/workspaces setup.
