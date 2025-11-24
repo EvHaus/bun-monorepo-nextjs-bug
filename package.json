@@ -2,9 +2,6 @@
   "name": "bun-monorepo-nextjs-bug",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "typescript": "latest"
   }
